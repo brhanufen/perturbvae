@@ -1,0 +1,60 @@
+{
+  "dataset": "data/norman/perturb_processed.h5ad",
+  "n_genes": 5045,
+  "n_conditions": 284,
+  "n_holdout_groups": 11,
+  "A_random": {
+    "n_train": 132,
+    "n_test": 20,
+    "baselines": {
+      "mean_of_training": {
+        "n_conditions": 20.0,
+        "mean_pearson": 0.616226721899503,
+        "mean_mse": 0.002348920828528753,
+        "mean_jaccard": 0.2662874830479358
+      },
+      "control_mean": {
+        "n_conditions": 20.0,
+        "mean_pearson": NaN,
+        "mean_mse": 0.0035189223150642714,
+        "mean_jaccard": 0.002564102564102564
+      }
+    }
+  },
+  "B_function": {
+    "n_train": 124,
+    "n_test": 28,
+    "baselines": {
+      "mean_of_training": {
+        "n_conditions": 28.0,
+        "mean_pearson": 0.4124329393460836,
+        "mean_mse": 0.003126345512665763,
+        "mean_jaccard": 0.17308900742918043
+      },
+      "control_mean": {
+        "n_conditions": 28.0,
+        "mean_pearson": NaN,
+        "mean_mse": 0.00382561161738834,
+        "mean_jaccard": 0.0072182719241542775
+      }
+    }
+  },
+  "C_combinatorial": {
+    "n_train": 152,
+    "n_test": 131,
+    "baselines": {
+      "mean_of_training": {
+        "n_conditions": 131.0,
+        "mean_pearson": 0.5507492103799407,
+        "mean_mse": 0.005789082021815217,
+        "mean_jaccard": 0.19945184200110283
+      },
+      "control_mean": {
+        "n_conditions": 131.0,
+        "mean_pearson": NaN,
+        "mean_mse": 0.007596610049753463,
+        "mean_jaccard": 0.004009249087593803
+      }
+    }
+  }
+}

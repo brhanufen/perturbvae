@@ -1,0 +1,60 @@
+{
+  "dataset": "data/replogle_k562_essential/perturb_processed.h5ad",
+  "n_genes": 5000,
+  "n_conditions": 1093,
+  "n_holdout_groups": 17,
+  "A_random": {
+    "n_train": 855,
+    "n_test": 237,
+    "baselines": {
+      "mean_of_training": {
+        "n_conditions": 237.0,
+        "mean_pearson": 0.39122231058091544,
+        "mean_mse": 0.007318230540555674,
+        "mean_jaccard": 0.07199123493194365
+      },
+      "control_mean": {
+        "n_conditions": 237.0,
+        "mean_pearson": NaN,
+        "mean_mse": 0.008666929280385278,
+        "mean_jaccard": 0.0251904341334917
+      }
+    }
+  },
+  "B_function": {
+    "n_train": 1006,
+    "n_test": 86,
+    "baselines": {
+      "mean_of_training": {
+        "n_conditions": 86.0,
+        "mean_pearson": 0.36976006014380397,
+        "mean_mse": 0.006604760340802749,
+        "mean_jaccard": 0.07560799793949026
+      },
+      "control_mean": {
+        "n_conditions": 86.0,
+        "mean_pearson": NaN,
+        "mean_mse": 0.007653738871965943,
+        "mean_jaccard": 0.01901035387154595
+      }
+    }
+  },
+  "C_combinatorial": {
+    "n_train": 1092,
+    "n_test": 0,
+    "baselines": {
+      "mean_of_training": {
+        "n_conditions": 0.0,
+        "mean_pearson": NaN,
+        "mean_mse": NaN,
+        "mean_jaccard": NaN
+      },
+      "control_mean": {
+        "n_conditions": 0.0,
+        "mean_pearson": NaN,
+        "mean_mse": NaN,
+        "mean_jaccard": NaN
+      }
+    }
+  }
+}

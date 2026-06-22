@@ -1,0 +1,27 @@
+# Data (downloaded via GEARS PertData; not committed)
+data/
+*.h5ad
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Latex build artifacts
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+*.bak
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Slurm logs
+logs/
+slurm-*.out

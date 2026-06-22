@@ -1,0 +1,61 @@
+{
+  "n_genes": 5045,
+  "pert_dim": 128,
+  "device": "cuda",
+  "A_random": {
+    "cvae": {
+      "n_conditions": 20.0,
+      "mean_pearson": 0.5215952488060382,
+      "mean_mse": 0.002187763839018261,
+      "mean_jaccard": 0.2425569715526478
+    },
+    "mean_of_training": {
+      "n_conditions": 20.0,
+      "mean_pearson": 0.616226721899503,
+      "mean_mse": 0.002348920828528753,
+      "mean_jaccard": 0.2662874830479358
+    },
+    "n_train": 132,
+    "n_test": 20,
+    "n_cells_train": 50529,
+    "sec": 34.5
+  },
+  "B_function": {
+    "cvae": {
+      "n_conditions": 28.0,
+      "mean_pearson": 0.2565167887530115,
+      "mean_mse": 0.022330739390779543,
+      "mean_jaccard": 0.12472071851218244
+    },
+    "mean_of_training": {
+      "n_conditions": 28.0,
+      "mean_pearson": 0.4124329393460836,
+      "mean_mse": 0.003126345512665763,
+      "mean_jaccard": 0.17308900742918043
+    },
+    "n_train": 124,
+    "n_test": 28,
+    "n_cells_train": 45756,
+    "sec": 27.1
+  },
+  "C_combinatorial": {
+    "cvae": {
+      "n_conditions": 131.0,
+      "mean_pearson": 0.7475449050839624,
+      "mean_mse": 0.004177703085034085,
+      "mean_jaccard": 0.3411448853911912
+    },
+    "mean_of_training": {
+      "n_conditions": 131.0,
+      "mean_pearson": 0.5507492103799407,
+      "mean_mse": 0.005789082021815217,
+      "mean_jaccard": 0.19945184200110283
+    },
+    "n_train": 152,
+    "n_test": 131,
+    "n_cells_train": 55760,
+    "sec": 31.2
+  },
+  "cvae_leakage_gap": 0.26507846005302677,
+  "mot_leakage_gap": 0.2037937825534194
+}

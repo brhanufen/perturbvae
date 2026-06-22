@@ -1,0 +1,43 @@
+{
+  "n_genes": 5000,
+  "pert_dim": 128,
+  "device": "cuda",
+  "A_random": {
+    "cvae": {
+      "n_conditions": 237.0,
+      "mean_pearson": 0.305446970986789,
+      "mean_mse": 0.008181943901152717,
+      "mean_jaccard": 0.08446932223628004
+    },
+    "mean_of_training": {
+      "n_conditions": 237.0,
+      "mean_pearson": 0.39122231058091544,
+      "mean_mse": 0.007318230540555674,
+      "mean_jaccard": 0.07199123493194365
+    },
+    "n_train": 855,
+    "n_test": 237,
+    "n_cells_train": 132496,
+    "sec": 72.9
+  },
+  "B_function": {
+    "cvae": {
+      "n_conditions": 86.0,
+      "mean_pearson": 0.2828673013678287,
+      "mean_mse": 0.009431866545663668,
+      "mean_jaccard": 0.08174891363025857
+    },
+    "mean_of_training": {
+      "n_conditions": 86.0,
+      "mean_pearson": 0.36976006014380397,
+      "mean_mse": 0.006604760340802749,
+      "mean_jaccard": 0.07560799793949026
+    },
+    "n_train": 1006,
+    "n_test": 86,
+    "n_cells_train": 150941,
+    "sec": 87.3
+  },
+  "cvae_leakage_gap": 0.022579669618960296,
+  "mot_leakage_gap": 0.021462250437111474
+}
